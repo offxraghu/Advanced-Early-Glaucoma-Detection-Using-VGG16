@@ -41,7 +41,7 @@ To create a system that reduces the manual burden on eye-care professionals for 
 ## Model Architecture
 
 **A transfer learning approach** was adopted, starting with a pre-trained VGG16 model where the convolutional base was kept immutable.
-**New fully connected layers** were introduced atop the frozen base to perform binary classification.
+**New fully connected layers** were introduced to stop the frozen base to perform binary classification.
 **Dropout layers** were strategically placed to mitigate overfitting.
 Model training employed the **binary cross-entropy loss function**.
 Performance was rigorously evaluated through **accuracy, precision, recall, and F1-score**.
